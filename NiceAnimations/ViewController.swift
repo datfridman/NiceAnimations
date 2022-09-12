@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import SpringAnimation
 
 class ViewController: UIViewController {
 
@@ -19,7 +20,11 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
     }
-
+    
+    @IBAction func startAnimationButtonPressed(_ sender: UIButton) {
+        
+    }
+    
 
 }
 
