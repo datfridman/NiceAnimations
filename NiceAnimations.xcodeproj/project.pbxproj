@@ -14,6 +14,7 @@
 		CD599F1C28CFBFD200EF88A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD599F1A28CFBFD200EF88A1 /* Main.storyboard */; };
 		CD599F1E28CFBFD400EF88A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD599F1D28CFBFD400EF88A1 /* Assets.xcassets */; };
 		CD599F2128CFBFD400EF88A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD599F1F28CFBFD400EF88A1 /* LaunchScreen.storyboard */; };
+		CDD41C2728D0877B0094D0F7 /* Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD41C2628D0877B0094D0F7 /* Animation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		CD599F1D28CFBFD400EF88A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CD599F2028CFBFD400EF88A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CD599F2228CFBFD400EF88A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDD41C2628D0877B0094D0F7 /* Animation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 			isa = PBXGroup;
 			children = (
 				CD599F1428CFBFD200EF88A1 /* AppDelegate.swift */,
+				CDD41C2628D0877B0094D0F7 /* Animation.swift */,
 				CD599F1628CFBFD200EF88A1 /* SceneDelegate.swift */,
 				CD599F1828CFBFD200EF88A1 /* ViewController.swift */,
 				CD599F1A28CFBFD200EF88A1 /* Main.storyboard */,
@@ -148,6 +151,7 @@
 			files = (
 				CD599F1928CFBFD200EF88A1 /* ViewController.swift in Sources */,
 				CD599F1528CFBFD200EF88A1 /* AppDelegate.swift in Sources */,
+				CDD41C2728D0877B0094D0F7 /* Animation.swift in Sources */,
 				CD599F1728CFBFD200EF88A1 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
