@@ -16,6 +16,7 @@ final class ViewController: UIViewController {
     @IBOutlet var forceLabel: UILabel!
     @IBOutlet var durationLabel: UILabel!
     @IBOutlet var delayLabel: UILabel!
+    @IBOutlet var startAnimationButton: SpringButton!
     
     
     @IBAction func startAnimationButtonPressed(_ sender: SpringButton) {
@@ -36,6 +37,8 @@ final class ViewController: UIViewController {
             self.forceLabel.text = String(format: "%.1f", nextAnimation.force)
             self.durationLabel.text = String(format: "%.2f", nextAnimation.duration)
             self.delayLabel.text = String(format: "%.2f", nextAnimation.delay)
+            
+            self.startAnimationButton.setTitle("Start \( self.presetLabel.text ?? "Lol")", for: .normal)
         }
         
     }

@@ -141,6 +141,7 @@
                         <outlet property="durationLabel" destination="c3K-Lr-5B9" id="d9f-wf-CRR"/>
                         <outlet property="forceLabel" destination="k6T-EZ-33D" id="yOu-e8-D7H"/>
                         <outlet property="presetLabel" destination="3I8-CJ-lY0" id="Kiq-Fv-61K"/>
+                        <outlet property="startAnimationButton" destination="tvO-cy-dD7" id="cF7-Yi-KNt"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
